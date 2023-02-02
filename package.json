@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "vercel": "^28.14.1"
+  },
+  "scripts": {
+    "start": "vercel dev",
+    "dep": "vercel --prod"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
