@@ -6,7 +6,7 @@ app.use(cors());
 app.use(
   '/api',
   createProxyMiddleware({
-    target: 'http://h.aaaapp.cn:2099/',
+    target: 'http://103.78.0.39:3000/',
     changeOrigin: true,
     pathRewrite: {
         "^/api": "" // strip "/api" from the URL
